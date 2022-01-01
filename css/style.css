@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+    overflow  : hidden;
+}
+
+body {
+    font-family     : 'Raleway', sans-serif;
+    background-color: #11ddaa;
+    color           : #000000;
+    height          : 1200px;
+
+}
+
+.container {
+    position        : relative;
+    border          : 2px solid #ffffffec;
+    background-color: #ffffff;
+    width           : 430px;
+    height          : 480px;
+    left            : 442px;
+    top             : 70px;
+    box-shadow      : 0 30px 60px 0 #0000009f;
+    border-radius   : 18px;
+    text-align      : center;
+
+}
+
+form {
+    position: relative;
+    top     : 100px;
+}
+
+.headertext {
+    font-size    : 25px;
+    font-weight  : bold;
+    margin-bottom: 35px;
+}
+
+.inputs {
+    padding: 20px 5px 0px 20px;
+}
+
+input {
+    padding      : 8px 5px;
+    margin       : 10px 0px;
+    width        : 320px;
+    border-style : none;
+    border       : 2px solid #000000dc;
+    position     : relative;
+    border-radius: 5px;
+    right        : 5px;
+
+}
+
+input:focus::placeholder {
+    visibility: hidden;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 14px;
+    opacity  : 1.2;
+    position : relative;
+    left     : 2px;
+}
+
+
+button {
+    width           : 132px;
+    padding         : 8px 0px;
+    position        : relative;
+    right           : 98px;
+    border-style    : none;
+    border-radius   : 5px;
+    background-color: #00ffff;
+    font-size       : 15px;
+    color           : #000000da;
+    font-weight     : bold;
+    border          : 3px solid #00000017;
+
+}
+
+button:hover {
+    color           : black;
+    background-color: #0ccece;
+}
