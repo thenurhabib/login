@@ -1,4 +1,4 @@
-var objPeople = [
+var credentials = [
     {
         username: "habib!user",
         password: "nurhabib!password"
@@ -10,8 +10,8 @@ function getUserInfo() {
     var username = document.getElementById('username').value
     var password = document.getElementById('password').value
 
-    for (var i = 0; i < objPeople.length; i++) {
-        if (username == objPeople[i].username && password == objPeople[i].password) {
+    for (var i = 0; i < credentials.length; i++) {
+        if (username == credentials[i].username && password == credentials[i].password) {
             alert("Congratulation, You're Logged in.");
             return
         }
